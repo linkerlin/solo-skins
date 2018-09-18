@@ -43,7 +43,7 @@
                                     <#else>
                                     <a href="${comment.commentURL}" target="_blank">${comment.commentName}</a>
                                     </#if>
-                                    <time>${comment.commentDate?string("yyyy-MM-dd HH:mm")}</time> 
+                                    <time>${comment.commentCreated?string("yyyy-MM-dd HH:mm")}</time> 
                                 </span>
                                 <a class="fn-right" href="${servePath}${comment.commentSharpURL}">${viewLabel}»</a>
                             </div>
